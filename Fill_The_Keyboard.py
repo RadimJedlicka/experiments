@@ -1,8 +1,7 @@
 import os
-
 os.system("cls")
-keyboard = {1: 'qwertyuiop', 2: 'asdfghjkl', 3: 'zxcvbnm'}
 
+keyboard = {1: 'qwertyuiop', 2: 'asdfghjkl', 3: 'zxcvbnm'}
 klavesnice = {
     1: ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_'],
     2: ['_', '_', '_', '_', '_', '_', '_', '_', '_'],
