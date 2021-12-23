@@ -15,7 +15,7 @@ print(' ', ' '.join(klavesnice[3]))
 message = 'already in'
 run = True
 while run:
-    entry = input('Letter: ')
+    entry = input('Type in some letter: ')
     os.system("cls")
     if entry.upper().isalpha() is False or len(entry.upper()) > 1:
         print(' '.join(klavesnice[1]))
