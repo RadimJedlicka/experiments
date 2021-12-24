@@ -17,13 +17,14 @@ run = True
 while run:
     entry = input('Type in some letter: ')
     os.system("cls")
-    if entry.upper().isalpha() is False or len(entry.upper()) > 1:
+    if '_' not in klavesnice[1] and '_' not in klavesnice[2] and '_' not in klavesnice[3]:
+        run = False
+    elif entry.upper().isalpha() is False or len(entry.upper()) > 1:
         print(' '.join(klavesnice[1]))
         print('', ' '.join(klavesnice[2]))
         print(' ', ' '.join(klavesnice[3]))
         print('wrong input!')
-    elif '_' not in klavesnice[1] and '_' not in klavesnice[2] and '_' not in klavesnice[3]:
-        run = False
+
     elif entry.upper() in klavesnice[1] or entry.upper() in klavesnice[2] or entry.upper() in klavesnice[3]:
         print(' '.join(klavesnice[1]))
         print('', ' '.join(klavesnice[2]))
