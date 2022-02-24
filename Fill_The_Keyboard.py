@@ -24,7 +24,6 @@ while run:
         print('', ' '.join(klavesnice[2]))
         print(' ', ' '.join(klavesnice[3]))
         print('wrong input!')
-
     elif entry.upper() in klavesnice[1] or entry.upper() in klavesnice[2] or entry.upper() in klavesnice[3]:
         print(' '.join(klavesnice[1]))
         print('', ' '.join(klavesnice[2]))
